@@ -1,0 +1,139 @@
+.app__chef {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app__chef-img {
+    width: 600px;
+    margin-right: 50px;
+}
+
+.app__chef-img img {
+    width: 100%;
+}
+
+.app__chef-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.app__chef-heading {
+    margin-bottom: 60px;
+}
+
+.app__chef-heading h1 {
+    font-family: var(--font-base);
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+.app__chef-content-para {
+    width: 570px;
+}
+.app__chef-content-para {
+    font-family: var(--font-base);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    /* or 28px */
+
+    letter-spacing: 0.04em;
+
+    /* AAAAAA */
+    color: #AAAAAA;
+}
+.inline-image {
+    width: 30px;
+}
+.app__chef-content-para-inlinePara {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.app__chef-content-para-inlinePara img {
+    margin-right: 10px;
+    width: 40px;
+}
+
+.app__chef-content-chef-sign {
+    margin: 2.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__chef-content-chef-sign h3 {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    font-feature-settings: 'tnum' on, 'lnum' on;
+    color: var(--color-golden);
+
+
+}
+.app__chef-content-chef-sign p {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    letter-spacing: 0.04em;
+    color: var(--color-white);
+}
+.app__chef-content-chef-sign img {
+    margin-top: 2rem;
+    width: 235px;
+}
+
+@media screen and (max-width: 1200px) {
+    .app__chef {
+        flex-direction: column;
+    }
+
+    .app__chef-heading {
+        margin-top: 2rem;
+    }
+
+    .app__chef-img {
+        margin: 0;
+        width: 100%;
+    }
+    .app__chef-content {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .app__chef-content-para {
+        width: 100%;
+    }
+    .app__chef-content-para-inlinePara img {
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .app__chef-heading h1 {
+        font-size: 55px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .app__chef-content-para-inlinePara img {
+        width: 20px;
+    }
+    .app__chef-heading h1 {
+        font-size: 47px;
+    }
+} 

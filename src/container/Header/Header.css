@@ -1,0 +1,48 @@
+.app__header {
+    background-color: var(--color-black);
+}
+
+.app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+    flex: 1;
+}
+
+.app__header-img img{
+    width: 70%;
+}
+
+@media screen and (max-width: 780px) {
+    .app__header-h1 {
+        font-size: 80px;
+        line-height: 90px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .app__header-h1 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .app__header-h1 {
+        font-size: 60px;
+        line-height: 70px;
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .app__header-h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
