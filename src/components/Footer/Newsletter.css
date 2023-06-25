@@ -32,6 +32,9 @@
     .app__newsletter-input input {
         font-size: 2rem;
     }
+    .app__newsletter-heading h1 {
+        font-size: 110px;
+    }
 }
 @media screen and (max-width: 1150px) {
     .app__newsletter-heading h1 {
